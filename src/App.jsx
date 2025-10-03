@@ -28,14 +28,6 @@ function App() {
   };
   return (
     <>
-      {/* pre loader area start */}
-      <div id="back__preloader">
-        <div id="back__circle_loader" />
-        <div className="back__loader_logo">
-          <img loading="lazy" src="img/pre.png" alt="Preload" />
-        </div>
-      </div>
-      {/* pre loader area end */}
       {/* Dark/Light area start */}
       <div className="mode_switcher my_switcher">
         <button id="light--to-dark-button" className="light align-items-center">
